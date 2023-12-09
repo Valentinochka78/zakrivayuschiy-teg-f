@@ -8,7 +8,6 @@
     --bg-color: #fff;
     --accent-fill: #ff0000;
     --color-text: #fff;
-    --bg-image: url(../images/background\ \(1\).png);
     --section-size: clamp(23.19rem, calc(15.95rem + 30.89vw), 43.75rem);
     --logo-font-size: clamp(3.06rem, calc(2.71rem + 1.5vw), 4.06rem);
     --title-font-size: clamp(0.88rem, calc(0.68rem + 0.85vw), 1.44rem);
