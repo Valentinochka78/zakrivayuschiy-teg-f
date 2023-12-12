@@ -23,7 +23,7 @@
   padding: 100px 2px;
   font-family: var(--main-font), sans-serif;
   font-variation-settings: "wght" var(--card-text);
-  color: var(--main-color, #000);
+  color: var(--main-color);
   background-color: var(--bg-color);
   background-image: var(--bg-gradient);
   background-size: cover;
@@ -38,9 +38,9 @@
   inline-size: var(--section-size);
   margin-block-end: 100px;
   padding: var(--padding-top) 0 25px;
-  background-color: var(--bg-color, #fff);
+  background-color: var(--bg-color);
   border: 2px solid currentColor;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .header__title-decor {
-  font-weight: var(--card-text, 400);
+  font-weight: var(--card-text);
   font-size: var(--title-font-size);
   text-transform: uppercase;
   padding-block-end: 25px;
@@ -132,7 +132,7 @@
 
 .post_title {
   border-block-end: 2px solid currentColor;
-  padding: 5px 10px;
+  padding: 5px 9px;
   font-size: 18px;
   font-variation-settings: "wght" var(--card-title);
 }
@@ -163,22 +163,6 @@
 
 .post__text:not(:last-child) {
   margin-bottom: 27px;
-}
-
-.post__text:first-of-type(1):nth-child(5):nth-child(9):nth-child(11):nth-child(13) p {
-  margin-right: 28px;
-}
-
-.post__text:nth-child(3) p {
-  margin-right: 26px;
-}
-
-.post__text:nth-child(7) p {
-  margin-right: 27px;
-}
-
-.post__text:nth-child(15) p {
-  margin-right: 26px;
 }
 
 .card__button-block {
@@ -239,7 +223,7 @@
   padding: 10px 17px;
   overflow: hidden;
   color: var(--color-text);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--accent-font-size);
   background-color: var(--bg-color);
   transition: box-shadow .3s ease;
@@ -270,10 +254,11 @@
 .button__text {
   position: relative;
   mix-blend-mode: difference;
+  width: 266px;
 }
 
 .popup {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--accent-font-size);
   color: var(--main-color);
   background-color: var(--bg-color);
