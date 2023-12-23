@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
-    <script src="./scripts/set-theme.js"></script>
+    <script src="./scripts/set-theme.js">
+    </script>
   </head>
+  
   <body class="page">
     <header class="header">
       <a class="header__title">&lt;/HTML&gt;</a>
@@ -507,7 +509,7 @@
         class="button button_type_floppy" 
         type="button"
         onclick="window['popup'].showModal()">
-        <svg class="floppy-svg" xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" stroke="currentColor" viewBox="0 0 21 21">
+        <svg class="floppy-svg" width="21" height="21" fill="var(--main-color)" stroke="var(--main-color)">
           <use href="./svg/floppy (4) (1).svg#floppy"></use>
         </svg>
         <span class="button__text">
@@ -515,7 +517,7 @@
         </span>
       </button>
       <dialog class="popup" id="popup">
-        <svg class="floppy-svg" xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" stroke="currentColor">
+        <svg class="floppy-svg" width="39" height="39" fill="currentColor" stroke="currentColor">
           <use href="./svg/floppy (4) (1).svg#floppy"></use>
         </svg>
         <p class="popup__title">Вставьте дискету, чтобы продолжить</p>

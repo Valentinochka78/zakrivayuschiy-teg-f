@@ -204,12 +204,14 @@
 .button_type_floppy {
   display: flex;
   align-items: flex-end;
+  width: 335px;
   height: 51px;
   line-height: 32px;
 }
 
 @media (width <= 375px) {
   .button_type_floppy {
+    width: 306px;
     height: 85px;
     display: flex;
     flex-direction: column;
@@ -220,8 +222,6 @@
 .floppy-svg {
   position: relative;
   z-index: 1;
-  inline-size: 39px;
-  block-size: 39px;
   mix-blend-mode: difference;
 }
 
@@ -298,7 +298,7 @@
 
 .popup__close {
   width: 100%;
-  font-size: var(--accent-font-size);
+  font-size: 14px;
   text-transform: uppercase;
 }
 
