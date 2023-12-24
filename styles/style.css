@@ -203,10 +203,12 @@
 
 .button_type_floppy {
   display: flex;
-  align-items: flex-end;
+  justify-items: center;
+  align-items: center;
   width: 335px;
   height: 51px;
   line-height: 32px;
+  gap: 8px;
 }
 
 @media (width <= 375px) {
@@ -223,6 +225,14 @@
   position: relative;
   z-index: 1;
   mix-blend-mode: difference;
+  inline-size: 21px;
+  block-size: 21px;
+}
+
+
+.popur[open] .floppy-svg {
+  inline-size: 39px;
+  block-size: 39px;
 }
 
 .button {
